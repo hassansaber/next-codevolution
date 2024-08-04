@@ -3,6 +3,13 @@ export default function ProductDetailLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // function getRandomInt(counter: number) {
+  //   return Math.floor(Math.random() * counter);
+  // }
+  // const random = getRandomInt(2);
+  // if (random === 1)
+  //   throw new Error("Something went wrong loading review");
+
   return (
     <>
       {children}
